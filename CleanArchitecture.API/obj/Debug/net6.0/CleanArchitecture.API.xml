@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CleanArchitecture.API</name>
+    </assembly>
+    <members>
+        <member name="M:CleanArchitecture.API.Controllers.AccountController.Login(CleanArchitecture.Application.Models.Identity.AuthRequest)">
+            <summary>
+            User Authentication
+            </summary>
+            <param name="request"></param>
+            <returns>Get user credentials</returns>
+            <response code="201">Returns credentials</response>
+            <response code="400">error credentials</response>
+        </member>
+    </members>
+</doc>

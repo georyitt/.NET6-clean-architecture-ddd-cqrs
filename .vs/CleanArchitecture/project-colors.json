@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "30774fa9-fac4-4e15-8348-d5f0558d46ed": {
+      "ProjectGuid": "30774fa9-fac4-4e15-8348-d5f0558d46ed",
+      "DisplayName": "CleanArchitecture.Infrastructure",
+      "ColorIndex": 0
+    },
+    "1132907a-3deb-4256-af10-e7bcc6b055c8": {
+      "ProjectGuid": "1132907a-3deb-4256-af10-e7bcc6b055c8",
+      "DisplayName": "CleanArchitecture.ConsoleApp",
+      "ColorIndex": 1
+    },
+    "72282dfc-c72c-4a11-8fe5-c556a57a52d0": {
+      "ProjectGuid": "72282dfc-c72c-4a11-8fe5-c556a57a52d0",
+      "DisplayName": "CleanArchitecture.Domain",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "ceb6c3d1-1977-4a36-848e-7bdc4f598ddc": {
+      "ProjectGuid": "ceb6c3d1-1977-4a36-848e-7bdc4f598ddc",
+      "DisplayName": "CleanArchitecture.API",
+      "ColorIndex": 3
+    },
+    "1b7965f2-47fa-4a5e-85e7-c7e2a0007139": {
+      "ProjectGuid": "1b7965f2-47fa-4a5e-85e7-c7e2a0007139",
+      "DisplayName": "CleanArchitecture.Application",
+      "ColorIndex": 4
+    },
+    "8b02adff-81bd-4b7a-98d3-75f15ef7ac3a": {
+      "ProjectGuid": "8b02adff-81bd-4b7a-98d3-75f15ef7ac3a",
+      "DisplayName": "CleanArchitecture.Infrastructure",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

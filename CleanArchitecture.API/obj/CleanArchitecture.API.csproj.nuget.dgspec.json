@@ -1,0 +1,393 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.API\\CleanArchitecture.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.API\\CleanArchitecture.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.API\\CleanArchitecture.API.csproj",
+        "projectName": "CleanArchitecture.API",
+        "projectPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.API\\CleanArchitecture.API.csproj",
+        "packagesPath": "C:\\Users\\geory\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\geory\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
+              },
+              "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infrastructure.csproj"
+              },
+              "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Identity\\CleanArchitecture.Identity.csproj": {
+                "projectPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Identity\\CleanArchitecture.Identity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+        "projectName": "CleanArchitecture.Application",
+        "projectPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+        "packagesPath": "C:\\Users\\geory\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\geory\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+                "projectPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infrastructure.csproj",
+        "projectName": "CleanArchitecture.Infrastructure",
+        "projectPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\geory\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\geory\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.25.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "projectName": "CleanArchitecture.Domain",
+        "projectPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "packagesPath": "C:\\Users\\geory\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\geory\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Identity\\CleanArchitecture.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Identity\\CleanArchitecture.Identity.csproj",
+        "projectName": "CleanArchitecture.Identity",
+        "projectPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Identity\\CleanArchitecture.Identity.csproj",
+        "packagesPath": "C:\\Users\\geory\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\geory\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\Users\\geory\\OneDrive\\Documentos\\develop\\courses\\.NET\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.21.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
